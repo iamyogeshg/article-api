@@ -1,7 +1,9 @@
 # Article API test
 
 #Go version 1.10
+
 #Docker version 18.06.0-ce, build 0ffa825
+
 #docker-compose version 1.21.2, build a133471
 
 ## Installing / Getting started
