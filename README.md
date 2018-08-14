@@ -8,13 +8,14 @@
 
 1. For setting up go environment , I pulled this script from github: 
    wget https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh
-   a) Edit VERSION to 1.10 and execute the script "./goinstall.sh --darwin" for mac. Now install following packages if not present already.
-   b) go get "github.com/gorilla/mux"
-   c) go get "github.com/gorilla/context"
-   d) go get "github.com/gorilla/handlers"
-   e) go get "gopkg.in/mgo.v2"
-
-   If you already have a go setup or $GOPATH , you can copy article-api/ folder into your $GOPATH/src folder which i will share.
+  * Edit VERSION to 1.10 and execute the script "./goinstall.sh --darwin" for mac. 
+  * If you already have a go setup or $GOPATH , you can copy article-api/ folder into your $GOPATH/src folder which i will share.
+  Now install following packages if not present already:
+    
+    - go get "github.com/gorilla/mux"
+    - go get "github.com/gorilla/context"
+    - go get "github.com/gorilla/handlers"
+    - go get "gopkg.in/mgo.v2"
 
 2. You need to have docker and docker-compose installed, versions I used are mentioned at top.
 
