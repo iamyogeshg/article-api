@@ -56,11 +56,11 @@ If you face issues while building docker image , please try dns setting for dock
      * Installed mongoshell to manually login to mongodb and verify the documents in collections. 
 
 3. Listing out the api calls for reference purpose, which you can make from local machine once you docker containers are up and running.
-   a) curl -X POST http://localhost:8000/articles --data '{"id": "someuniqueid", "title": "latest science shows that potato chips are better for you than sugar", "date" : "2016-09-22", "tags" : ["health", "fitness", "media"]}' -v
+   * curl -X POST http://localhost:8000/articles --data '{"id": "someuniqueid", "title": "latest science shows that potato chips are better for you than sugar", "date" : "2016-09-22", "tags" : ["health", "fitness", "media"]}' -v
 
-   b) curl -X GET http://localhost:8000/articles/someuniqueid -v
+   * curl -X GET http://localhost:8000/articles/someuniqueid -v
 
-   c) curl -X GET http://localhost:8000/tags/health/20160922 -v
+   * curl -X GET http://localhost:8000/tags/health/20160922 -v
 
  
 ## Assumptions
