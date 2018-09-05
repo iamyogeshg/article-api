@@ -70,9 +70,7 @@ If you face issues while building docker image , please try dns setting for dock
 3. Assuming the you have installed docker, docker compose and go setup as well.
 4. You have internet connectivity :) 
 
-## What I thought of this test and how long it took to complete?
 
-  Let me start by telling that my schedule was really tight with a AWS Certified solutions architect-associate exam this monday, which I have passed. I started on this task on Saturday and gave it a day for understanding Golang and mongoDB. After that I worked on this task on monday and Tuesday so that should make it less than 3 days to complete this task. I thought the test was not difficult by itself but given my situation it was bit time taking, as I had to build from scratch. I had to do it the hard way which is one time effort of course. I can say that I understand Golang better now and would be able to make out basic flow of code. Once the coding was done, I quickly dockerised it because I remembered that one of the conditions was that program should work on macOS also. I have tried to dockerise the unit testing as well. I understand that there is lot of scope for improvement as a person should keep on improving, however given time constraints I could do this much only for now. I sincerely hope my efforts will push my case.
 
 
 
